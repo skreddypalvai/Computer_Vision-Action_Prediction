@@ -26,7 +26,7 @@ Not Flipping Images:
 
 ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/f3c615a2-feb5-4e68-aaff-d059321be8c4)
 
-* We can see that the pictures are taken one after another in the same setting, so it's clear that the natural differences in the data are already well-captured. Therefore, there's no need for extensive image data enhancement in this scenario.
+* We can see that the pictures are taken one after another in the same setting, so it's clear that the natural differences in the data are already well-captured. Therefore, there's no need for extensive image data augmentation in this scenario.
 * I used the `image_dataset_from_directory` function from TensorFlow to split the training data into 80% for training and 20% for validation. This function ensures that there is no overlap between the training and validation sets, preventing data leakage between the two sets.
 
 
