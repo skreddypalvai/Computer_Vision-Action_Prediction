@@ -6,8 +6,12 @@ MonReader is a new mobile document digitization experience for the blind, for re
 
 ![image](https://github.com/skreddypalvai/PE9nyrOMEtPAhrwc/assets/137756791/5233561a-854f-4abe-b9bb-3fb97becfb52)
 
-### Data Description:
- Initially, page flipping videos were gathered from smartphones. Subsequently, these videos were trimmed into shorter clips, and each clip was labeled as either "flipping" or "not flipping". The frames extracted from these clips were then saved into their respective image files. These image files contain both training images (flipping and not flipping) and test images (flipping and not flipping).
+
  ### Objective:
  *  The main goal is to predict whether the page is being flipped using a single image.
  *  The trained model should achieve a high F1 score.
+
+
+### Data Description:
+ Initially, page flipping videos were gathered from smartphones. Subsequently, these videos were trimmed into shorter clips, and each clip was labeled as either "flipping" or "not flipping". The frames extracted from these clips were then saved into their respective image files. These image files contain both training images (flipping and not flipping) and test images (flipping and not flipping).
+
