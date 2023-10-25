@@ -36,11 +36,13 @@ Not Flipping Images:
 
 1. Convolution Neural Networks(CNN):
    *  After preparing the image data and training with 1,441,025 CNN model parameters, the CNN model achieved a good validation loss and accuracy.
+   *  
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/289d1e09-55e6-4ec7-904d-d19ebe27514b)
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/41789fe5-5287-4ea7-8f54-02b96e5c6434)
    *  After testing the trained CNN model on the test set, the model achieved the highest accuracy and the lowest loss scores.
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/2fc65584-6cb2-4f53-9904-497d7cff6d3b)
    *  The confusion matrix shows that the model correctly classified 583 out of 597 images, achieving a high F1 score of 98%.
+   *  
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/2022477e-d92d-44a3-9163-c2c18f4daf76)
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/73e46d6b-6754-4529-92ef-ae893d13f729)
    *  Randomly predicting five sets of test images showed that four were accurately identified as showing a flipping action, showcasing the model's commendable predictive capabilities.
@@ -56,8 +58,10 @@ Not Flipping Images:
     ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/0a0b3cdf-6215-4bb9-afb6-cf3b1b708ca3)
 
    *  After testing, the model achieved an impressive 99% accuracy and a maximum F1 score of 99% on the respective test set. It also accurately predicted the true label.
-      ![image](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/d2e3baa1-0248-4b67-ac57-c1038bbbcbfd)
-      ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/71c2ff24-c2ef-45fb-8c05-b445cf022357)
+     
+     ![image](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/d2e3baa1-0248-4b67-ac57-c1038bbbcbfd)
+      
+     ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/71c2ff24-c2ef-45fb-8c05-b445cf022357)
 
  
 
