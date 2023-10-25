@@ -36,13 +36,13 @@ Not Flipping Images:
 
 1. Convolution Neural Networks(CNN):
    *  After preparing the image data and training with 1,441,025 CNN model parameters, the CNN model achieved a good validation loss and accuracy.
-   *  
+      
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/289d1e09-55e6-4ec7-904d-d19ebe27514b)
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/41789fe5-5287-4ea7-8f54-02b96e5c6434)
    *  After testing the trained CNN model on the test set, the model achieved the highest accuracy and the lowest loss scores.
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/2fc65584-6cb2-4f53-9904-497d7cff6d3b)
    *  The confusion matrix shows that the model correctly classified 583 out of 597 images, achieving a high F1 score of 98%.
-   *  
+     
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/2022477e-d92d-44a3-9163-c2c18f4daf76)
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/73e46d6b-6754-4529-92ef-ae893d13f729)
    *  Randomly predicting five sets of test images showed that four were accurately identified as showing a flipping action, showcasing the model's commendable predictive capabilities.
@@ -52,12 +52,16 @@ Not Flipping Images:
 
 2. CNN-Recurrent Neural Networks(sequence analysis):
    *  We're sure that the given images come from video frames, and analyzing the sequence is the best way to check if there's any flipping action in a given image.We can achieve this using a CNN-RNN model.I prepared the data with a sequence length of 3:
+     
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/2a5de8a2-8632-4217-8c95-ccd91b2076eb)
    *  A CNN-RNN model with 1,470,209 parameters was trained on the sequence data, achieving an optimal validation loss and accuracy.
     ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/ed719e8b-5759-4076-9725-a2705b73b580)
     ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/0a0b3cdf-6215-4bb9-afb6-cf3b1b708ca3)
 
-   *  After testing, the model achieved an impressive 99% accuracy and a maximum F1 score of 99% on the respective test set. It also accurately predicted the true label.
+   *  After testing, the model achieved an impressive 99% accuracy and a maximum F1 score of 99% on the respective test set. It also accurately predicted the true label. The confusion matrix shows that model correctly classified 194 out of 197 images.
+     
+     ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/97f58ad0-dffe-46d9-bea4-36e68f69d2a4)
+  
      
      ![image](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/d2e3baa1-0248-4b67-ac57-c1038bbbcbfd)
       
