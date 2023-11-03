@@ -67,6 +67,8 @@ Not Flipping Images:
       
      ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/71c2ff24-c2ef-45fb-8c05-b445cf022357)
 
+### Conclusion:
+After experimenting with various hyperparameters and architectural choices,  like considering different settings for  filter sizes, kernel sizes, number of units in the LSTM layers, and batch sizes, the model achieved the best possible accuracy. I can conclude that this model, with its carefully selected hyperparameters, is well equipped to accurately predict flipping actions in respective image sequences. It demonstrates a high level of adaptability to different variations in the input data.
  
 
 
