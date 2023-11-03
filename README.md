@@ -35,7 +35,7 @@ Not Flipping Images:
 ### Key Results:
 
 1. Convolution Neural Networks(CNN):
-   *  After preparing the image data and training with 1,441,025 CNN model parameters, the CNN model achieved a good validation loss and accuracy.
+   *  After preparing the image data and training a CNN model with 1,441,025 parameters, the CNN model achieved a commendable level of validation loss and accuracy.
       
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/289d1e09-55e6-4ec7-904d-d19ebe27514b)
       ![download](https://github.com/skreddypalvai/s3Ho4t5iMRItcowM/assets/137756791/41789fe5-5287-4ea7-8f54-02b96e5c6434)
